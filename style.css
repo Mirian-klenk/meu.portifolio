@@ -3,9 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+header img{
+    width: 100px;
+    height: auto;
+}
 
 body{
     background-color: #000 ;
     height: 100vw;
     
+}
+.interface{
+    max-width: 1280px;
+    margin:0 auto;
+}
+/*  ESTILO DO CABEÇALHO*/
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display:flex;
+    align-items: center;
+    justify-content:space-between
 }
